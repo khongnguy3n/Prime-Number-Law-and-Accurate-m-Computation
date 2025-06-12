@@ -46,9 +46,6 @@ The arrangement above facilitates the identification of potential patterns under
 ## 📧 Contact
 
 Author: **Khong Nguyen**  
-Email: [khongnguy3n@gmail.com](mailto:khongnguy3n@gmail.com)  
-GitHub: [github.com/khongnguy3n](https://github.com/khongnguy3n)
+📧 Email: khongnguy3n@gmail.com  
+📞 Phone: +49 1624597204  
 
----
-
-⭐ If you find this project interesting or useful, please consider sharing or starring it to spread the idea.
