@@ -38,11 +38,9 @@ The union of these refined sets helps estimate the number of primes up to any bo
 |181  |   |   |   |    |191 |193 |197 |199 |    |    |
 
 The arrangement above facilitates the identification of potential patterns underlying the distribution of prime numbers.
-## 📂 Files
+## Document
 
-- `Prime Number Law.pdf`: Full research paper with formal definitions, examples, and diagrams.
-- `README.md`: Overview and illustration of the main concepts.
-
+The full paper is provided in the directory: https://github.com/khongnguy3n/Prime-Number-Law-and-Accurate-m-Computation/blob/main/Prime%20Number%20Law.pdf
 ## 📧 Contact
 
 Author: **Khong Nguyen**  
