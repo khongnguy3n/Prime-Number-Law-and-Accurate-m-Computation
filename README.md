@@ -40,7 +40,7 @@ The union of these refined sets helps estimate the number of primes up to any bo
 
 ## Document
 
-The full paper is provided in the directory: https://github.com/khongnguy3n/Prime-Number-Law-and-Accurate-m-Computation/blob/main/Prime%20Number%20Law.pdf
+The full paper is provided in: https://github.com/khongnguy3n/Prime-Number-Law-and-Accurate-m-Computation/blob/main/Prime%20Number%20Law.pdf
 ## 📧 Contact
 
 Author: **Khong Nguyen**  
