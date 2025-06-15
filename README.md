@@ -21,21 +21,28 @@ Prime numbers appear irregular at first glance, but this research reveals a recu
 The arrangement above facilitates the identification of potential patterns underlying the distribution of prime numbers.
 ## 📂 Key Components
 
-- `X(n)`: Initial sequences of candidate numbers.
-- `R(n)`: Filtered sets obtained from `X(n)` by removing multiples of the first `n` primes.
-- `A(n)`: Union of sets `R(1)` through `R(n)` used to approximate or calculate π(m).
+**P(n)**: The set of all prime numbers up to the *n*-th level.
+
+**R(n)**: The set of multiples of *pₙ* that aren’t divisible by any of *p₀, p₁, …, pₙ₋₁*.
+
+**X(n)**: The base prime table of level *n*; this contains the reduced residues modulo *A(n)*,  
+where all primes greater than *pₙ* are congruent to some *xᵢ ∈ X(n)* modulo *A(n)*.
+
+**A(n)**: The prime coefficient product of level *n*, defined as: &nbsp;&nbsp;&nbsp;&nbsp;*A(n) = p₀ × p₁ × p₂ × ... × pₙ*
 
 ## 📈 Methodology
 
 The core idea is to construct `X(n)` recursively:
 - `X(0) = {1, }
-- `X(1) = {x ∈ X(0) | x mod 3 ≠ 0}`
-- `X(2) = {x ∈ X(1) | x mod 5 ≠ 0}`, and so on.
+- `X(1) = 3.X(0)-3*X(0) = {1, , , ,5, }
+- `X(2) = 5(X(1)) –5*X(1)}= {1, , , , , ,7, , , ,11, ,13, , , ,17, ,19, , , ,23, , , , ,29, }
 
 From these sequences, we define:
 - `R(n) = X(n) \ {multiples of p(n+1)}`
 
 The union of these refined sets helps estimate the number of primes up to any bound.
+
+
 
 
 ## Document
