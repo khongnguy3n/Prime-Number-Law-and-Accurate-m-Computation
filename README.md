@@ -37,11 +37,7 @@ The core idea is to construct `X(n)` recursively:
 - `X(1) = 3.X(0)-3*X(0) = {1, , , ,5, }
 - `X(2) = 5(X(1)) –5*X(1)}= {1, , , , , ,7, , , ,11, ,13, , , ,17, ,19, , , ,23, , , , ,29, }
 
-From these sequences, we define:
-- `R(n) = X(n) \ {multiples of p(n+1)}`
-
 The union of these refined sets helps estimate the number of primes up to any bound.
-
 
 
 
